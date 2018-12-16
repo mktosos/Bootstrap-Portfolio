@@ -1,5 +1,19 @@
 .tab {
     padding-top: 20px;
-    color: #777777;
-    
+    color: white
+    ;   
+}
+
+div.container-fluid {
+    border-bottom: 2px solid grey;
+    ;
+
+}h2 {
+    color: white;
+    font-size:  42px;
+    padding:0;
+    ;
+   
+}.panel-body {
+    background: grey
 }
