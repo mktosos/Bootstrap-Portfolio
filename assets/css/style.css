@@ -6,13 +6,32 @@ body,html {
 .bg {
     background-image: url(../images/lureSwap.png);
     height: 100%; 
-   
-
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.bg-contact {
+    background-image: url(../images/contact.JPG);
+    height: 100%; 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.bg-portfolio {
+    background-image: url(../images/reef.JPG);
+    height: 100%; 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
 .tab {
     padding-top: 20px;
     color: #8d8980;
