@@ -60,3 +60,11 @@ h4 {
 }.py-3 {
     color: #8d8980;
 }
+
+.form-control {
+    width: 50%;
+
+}
+.form-group {
+    padding: auto;
+}
