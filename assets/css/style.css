@@ -1,12 +1,28 @@
+body,html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    background-image: url(../images/lureSwap.png);
+    height: 100%; 
+   
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .tab {
     padding-top: 20px;
     color: #8d8980;
     font-size: 20px;
-    ;   
+       
 }
 
 .navbar-fixed-bottom {
-    background-color: #93a29b
+    background-color: #bfb48f;
+    height:5%;
 }
 
 h4 {
@@ -16,5 +32,12 @@ h4 {
     ;
    
 }.panel-body {
-    background: #60594D;
+    background: rgba(103, 52, 13, 0.858);
 }
+
+.text{
+    color: antiquewhite;
+    font-size: 18px;
+    
+}
+
