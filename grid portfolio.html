@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="height=device-height, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Grid Portfolio</title>
+     <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            background-image: url(assets/images/reef.JPG);
+            background-size: cover;
+        }
+        main{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            margin: 75px;
+            margin-right: 50px;
+            
+        }  
+        img {
+            display: block;
+            box-shadow: -1px 0px 0px rgba(0,0,0,0.06);
+           width: 300px;
+           height: 300px;
+            justify-content: center;  
+        }  
+    </style>    
+</head>
+<body>
+    <!--div class="item1">Header</div>
+    <div class="item2">Menu</div>-->
+    <main>
+        <img src="assets/images/fish game.png" id = fishGame alt="Word Guess Game" style="height:300px;" href="https://mktosos.github.io/Word-Guess-Game">
+        <img src="assets/images/Crystal Collector.png" id = CrystalCollector alt="Crystal Collector" style="height:300px;"  href="https://mktosos.github.io/unit-4-game/">
+        <img src="assets/images/lureSwap.png" alt="lureswap" style="height: 300px;">
+        <img src="assets/images/trivia game.png" class="trivia" alt="trivia game" style="height: 300px;"></a>
+    </main>      
+</body>
+</html>
