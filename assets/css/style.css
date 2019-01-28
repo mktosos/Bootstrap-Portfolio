@@ -75,23 +75,3 @@ label{
     height: 30px;
 
 }
-.lureSwap {
-    color: antiquewhite;
-    position: relative;
-    top: -30px;
-    left: 200px;
-    font-size: 24px;
-
-}
-#fishGame{
-    height: 300px;
-    width: 300px;
-    margin:auto;
-}
-.wordGuess {
-    color: antiquewhite;
-    position: relative;
-    top: -30px;
-    left: 90px;
-    font-size: 24px;
-}
